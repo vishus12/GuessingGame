@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "70pTbZR/81WHOowrkEKq0H4H6iXBix0oCIrdBhtoStweuGiDAAYLcF+Q+2T/Mjcbv/vaaLOU4aawcvEARCDh0A==",
+  "dgSpecHash": "KT3j2Javlje3VLD5D6j6T129np0uPEcKC2jC/et99KMQH/vTYetop9mjkIudSJuHt3bK90KNO1zc2qIn5xKCOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\krish\\workspace\\csharp\\guessingGame\\guessingGame.csproj",
+  "projectFilePath": "C:\\Users\\krish\\workspace\\csharp\\GuessingGame\\guessingGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

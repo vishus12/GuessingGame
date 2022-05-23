@@ -6,11 +6,11 @@ namespace guessingGame
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Hey, guess a number!");
             int index = 0;
             while (index < 4)
             {
-                Console.WriteLine("Hey, guess a number!");
+
                 string response = Console.ReadLine();
                 int ParseResponse = int.Parse(response);
                 int SecretNum = 69;
@@ -18,7 +18,11 @@ namespace guessingGame
                 {
                     Console.WriteLine("Success Message!");
                 }
-                else { Console.WriteLine("Failure Message!"); }
+                else
+                {
+                    Console.WriteLine($"Your guess is: {ParseResponse}");
+                    Console.WriteLine($"You have {3 - index} more chances to guess");
+                }
                 index++;
             }
         }
